@@ -1,0 +1,106 @@
+/* Your Fonts */
+@font-face {
+  font-family: 'BEBAS NEUE';
+  font-style: normal;
+  font-weight: normal;
+  src: url('BebasNeue.otf');
+}
+
+@font-face {
+  font-family: 'big_noodle_titling';
+  font-style: normal;
+  font-weight: normal;
+  src: url('big_noodle_titling.ttf');
+}/**/
+
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+
+body {
+	background: url('../img/bg.png');
+	font-family: 'BEBAS NEUE';
+}
+
+/* Layout for Style Tile*/
+
+section {
+	margin: 20px 0;
+}
+
+h1, h1 + em {
+	color: #a61d00;
+	font-family: 'big_noodle_titling';
+}
+
+h2, h2 + em {
+	color: #ff9700;
+	font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 
+ 	
+}
+
+h3, h3 + em {
+	color: #242424;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+ 	
+}
+
+p, p + em {
+	color: black;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+ 	font-weight: 300;
+}
+
+p a {
+	color: rgb(0, 157, 145);
+}
+
+.color-1 {
+	background: rgb(0, 157, 145);
+}
+
+.color-2 {
+	background: #a61d00;
+}
+
+.color-3 {
+	background: #ff9700;
+}
+
+.pattern-1 {
+	background: url('http://www.louetdom.fr/texturesblender/vegetation/images/greenapple.jpg');
+}
+
+.pattern-2 {
+	background: url('http://www.colourbox.com/preview/1605343-349537-close-up-of-red-leaf-texture.jpg');
+}
+
+.pattern-3 {
+	background: url('http://media-cache-ak0.pinimg.com/236x/70/e0/63/70e0638011896a82835160d00db20058.jpg');
+}
+
+.logo {
+	width: 50%;
+	background: white;
+	border: 3px solid rgb(0, 157, 145);
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
